@@ -53,3 +53,8 @@ if __name__ == '__main__':
     # File renaming
     for f in files:
         rename_file(f, 'DefaultTemplateGem', target_name, 'defaulttemplategem', target_name_lower)
+    # Rename folder
+    folder_old = os.path.join(root, 'Code', 'Include', 'DefaultTemplateGem')
+    folder_new = os.path.join(root, 'Code', 'Include', target_name)
+    if os.path.exists(folder_old):
+        os.rename(folder_old, folder_new)
