@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder DefaultTemplateGem/Assets": {
+                    "watch": "@GEMROOT:DefaultTemplateGem@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder DefaultTemplateGem/Registry": {
+                    "watch": "@GEMROOT:DefaultTemplateGem@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
